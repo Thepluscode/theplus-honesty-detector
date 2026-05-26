@@ -1,0 +1,168 @@
+{
+  "method": "historical delta-neutral funding capture, full Binance public history, all modelled costs",
+  "fee_bps_per_leg": 5.0,
+  "slippage_bps_per_leg": 2.0,
+  "borrow_apr": 0.1,
+  "notional": 1000.0,
+  "computed_at": "2026-05-18T16:34:13+00:00",
+  "results": [
+    {
+      "symbol": "BTCUSDT",
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 980,
+      "gross_ann_pct": 14.07,
+      "net_ann_pct": -7.91,
+      "cost_drag_ann_pct": 21.99,
+      "net_sharpe": -4.27,
+      "max_dd_pct": 81.25,
+      "pct_cycles_net_positive": 80.8,
+      "worst_year_net_pct": -31.92,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 43,
+          "gross_pct": 3.85,
+          "net_pct": -2.88
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 89,
+          "gross_pct": 22.07,
+          "net_pct": 8.17
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 72,
+          "gross_pct": 32.71,
+          "net_pct": 21.9
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 264,
+          "gross_pct": 7.25,
+          "net_pct": -31.92
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 136,
+          "gross_pct": 8.39,
+          "net_pct": -11.66
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 96,
+          "gross_pct": 12.51,
+          "net_pct": -1.77
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 168,
+          "gross_pct": 5.8,
+          "net_pct": -19.01
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 112,
+          "gross_pct": 1.59,
+          "net_pct": -15.78
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 946,
+      "gross_ann_pct": 16.56,
+      "net_ann_pct": -5.27,
+      "cost_drag_ann_pct": 21.83,
+      "net_sharpe": -2.69,
+      "max_dd_pct": 88.0,
+      "pct_cycles_net_positive": 81.6,
+      "worst_year_net_pct": -38.34,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 4,
+          "gross_pct": 0.98,
+          "net_pct": 0.23
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 44,
+          "gross_pct": 28.45,
+          "net_pct": 22.03
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 54,
+          "gross_pct": 38.96,
+          "net_pct": 30.99
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 314,
+          "gross_pct": 9.04,
+          "net_pct": -38.34
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 124,
+          "gross_pct": 8.8,
+          "net_pct": -9.47
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 54,
+          "gross_pct": 13.23,
+          "net_pct": 5.25
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 238,
+          "gross_pct": 5.83,
+          "net_pct": -29.1
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 114,
+          "gross_pct": 2.0,
+          "net_pct": -15.69
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    }
+  ]
+}

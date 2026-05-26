@@ -1,0 +1,15 @@
+# Runtime dependencies for tools/strategy_edge_audit.py,
+# tools/funding_arb_feasibility.py, tools/pead_precheck.py,
+# tools/index_recon_precheck.py
+#
+# funding_arb_feasibility.py uses only the Python standard library
+# (urllib, json) — no third-party packages required for that tool.
+#
+# tools/alpha_zoo/ has its own requirements.txt for the IC benchmark.
+# tools/alpha_zoo/alpaca_to_csv.py additionally needs: alpaca-trade-api
+
+pandas>=1.5
+numpy>=1.23
+python-dateutil>=2.8   # for relativedelta in strategy_edge_audit walk-forward
+yfinance>=0.2          # pead_precheck.py, index_recon_precheck.py
+httpx>=0.24            # index_recon_precheck.py Wikipedia fetch

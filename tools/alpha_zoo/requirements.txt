@@ -1,0 +1,8 @@
+# Standalone alpha-zoo benchmark — pinned to the verified-working set.
+# Tested on Python 3.9.6 (also runs on 3.11+). These three are the ONLY
+# runtime deps — no agent, no langchain, no network/data-provider packages.
+pandas==2.3.3
+numpy==1.26.3
+pydantic==2.9.2
+# Optional: only needed if your universe file is Parquet rather than CSV.
+# pyarrow==17.0.0

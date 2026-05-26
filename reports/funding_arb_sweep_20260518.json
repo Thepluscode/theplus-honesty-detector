@@ -1,0 +1,1461 @@
+{
+  "method": "flip-discipline deadband robustness sweep",
+  "grid_bps": [
+    0.0,
+    0.2,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    5.0,
+    8.0
+  ],
+  "fee_bps_per_leg": 5.0,
+  "slippage_bps_per_leg": 2.0,
+  "borrow_apr": 0.1,
+  "notional": 1000.0,
+  "computed_at": "2026-05-18T16:48:46+00:00",
+  "sweep": [
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 0.0,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 980,
+      "gross_ann_pct": 14.07,
+      "net_ann_pct": -7.91,
+      "cost_drag_ann_pct": 21.99,
+      "net_sharpe": -4.27,
+      "max_dd_pct": 81.25,
+      "pct_cycles_net_positive": 80.8,
+      "worst_year_net_pct": -31.92,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 43,
+          "gross_pct": 3.85,
+          "net_pct": -2.88
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 89,
+          "gross_pct": 22.07,
+          "net_pct": 8.17
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 72,
+          "gross_pct": 32.71,
+          "net_pct": 21.9
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 264,
+          "gross_pct": 7.25,
+          "net_pct": -31.92
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 136,
+          "gross_pct": 8.39,
+          "net_pct": -11.66
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 96,
+          "gross_pct": 12.51,
+          "net_pct": -1.77
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 168,
+          "gross_pct": 5.8,
+          "net_pct": -19.01
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 112,
+          "gross_pct": 1.59,
+          "net_pct": -15.78
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 0.2,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 413,
+      "gross_ann_pct": 13.95,
+      "net_ann_pct": -20.17,
+      "cost_drag_ann_pct": 34.12,
+      "net_sharpe": -9.26,
+      "max_dd_pct": 156.68,
+      "pct_cycles_net_positive": 71.3,
+      "worst_year_net_pct": -47.84,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 32,
+          "gross_pct": 3.83,
+          "net_pct": -4.63
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 57,
+          "gross_pct": 22.03,
+          "net_pct": 3.31
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 52,
+          "gross_pct": 32.69,
+          "net_pct": 18.33
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 125,
+          "gross_pct": 7.08,
+          "net_pct": -47.84
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 36,
+          "gross_pct": 8.25,
+          "net_pct": -23.0
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 26,
+          "gross_pct": 12.4,
+          "net_pct": -9.03
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 48,
+          "gross_pct": 5.58,
+          "net_pct": -46.55
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 37,
+          "gross_pct": 1.48,
+          "net_pct": -25.58
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 0.5,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 119,
+      "gross_ann_pct": 13.31,
+      "net_ann_pct": -22.12,
+      "cost_drag_ann_pct": 35.44,
+      "net_sharpe": -10.1,
+      "max_dd_pct": 165.6,
+      "pct_cycles_net_positive": 58.0,
+      "worst_year_net_pct": -52.32,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 13,
+          "gross_pct": 3.76,
+          "net_pct": -5.19
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 30,
+          "gross_pct": 21.85,
+          "net_pct": -0.25
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 24,
+          "gross_pct": 32.55,
+          "net_pct": 14.11
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 41,
+          "gross_pct": 6.22,
+          "net_pct": -52.32
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 4,
+          "gross_pct": 7.46,
+          "net_pct": -25.96
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 4,
+          "gross_pct": 11.92,
+          "net_pct": -11.8
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 2,
+          "gross_pct": 4.44,
+          "net_pct": -48.79
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 1,
+          "gross_pct": 0.9,
+          "net_pct": -17.82
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 1.0,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 35,
+      "gross_ann_pct": 11.91,
+      "net_ann_pct": -9.21,
+      "cost_drag_ann_pct": 21.12,
+      "net_sharpe": -5.13,
+      "max_dd_pct": 81.05,
+      "pct_cycles_net_positive": 46.5,
+      "worst_year_net_pct": -34.01,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 10,
+          "gross_pct": 3.6,
+          "net_pct": -4.53
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 9,
+          "gross_pct": 21.23,
+          "net_pct": 0.97
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 12,
+          "gross_pct": 32.19,
+          "net_pct": 13.62
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 4,
+          "gross_pct": 4.1,
+          "net_pct": -34.01
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 5.93,
+          "net_pct": -12.85
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 10.63,
+          "net_pct": -4.78
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.91,
+          "net_pct": -17.85
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.13,
+          "net_pct": -2.17
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 1.5,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 7.54,
+      "net_ann_pct": -1.76,
+      "cost_drag_ann_pct": 9.29,
+      "net_sharpe": -1.4,
+      "max_dd_pct": 18.1,
+      "pct_cycles_net_positive": 11.3,
+      "worst_year_net_pct": -5.07,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 0,
+          "gross_pct": 1.1,
+          "net_pct": -2.98
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 15.14,
+          "net_pct": -5.07
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 26.78,
+          "net_pct": 5.83
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.51,
+          "net_pct": -2.15
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.5,
+          "net_pct": -3.68
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 5.4,
+          "net_pct": -3.42
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.02,
+          "net_pct": -0.27
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 2.0,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 7.12,
+      "net_ann_pct": -1.36,
+      "cost_drag_ann_pct": 8.48,
+      "net_sharpe": -1.14,
+      "max_dd_pct": 15.34,
+      "pct_cycles_net_positive": 9.3,
+      "worst_year_net_pct": -3.5,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 0,
+          "gross_pct": 0.93,
+          "net_pct": -3.11
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 14.42,
+          "net_pct": -3.39
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 25.91,
+          "net_pct": 3.95
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.35,
+          "net_pct": -0.54
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.28,
+          "net_pct": -2.5
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 4.76,
+          "net_pct": -3.5
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 3.0,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 6.29,
+      "net_ann_pct": -0.6,
+      "cost_drag_ann_pct": 6.89,
+      "net_sharpe": -0.55,
+      "max_dd_pct": 10.51,
+      "pct_cycles_net_positive": 6.7,
+      "worst_year_net_pct": -2.9,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 0,
+          "gross_pct": 0.63,
+          "net_pct": -1.64
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 12.81,
+          "net_pct": -2.9
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 24.18,
+          "net_pct": 4.24
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.31,
+          "net_pct": -0.29
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.71,
+          "net_pct": -1.39
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 3.43,
+          "net_pct": -2.03
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 5.0,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 0,
+      "gross_ann_pct": 4.47,
+      "net_ann_pct": -0.11,
+      "cost_drag_ann_pct": 4.58,
+      "net_sharpe": -0.12,
+      "max_dd_pct": 6.86,
+      "pct_cycles_net_positive": 3.3,
+      "worst_year_net_pct": -3.36,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 0,
+          "gross_pct": 0.31,
+          "net_pct": -0.54
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 8.75,
+          "net_pct": -3.36
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 18.96,
+          "net_pct": 6.05
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.23,
+          "net_pct": -0.07
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.11,
+          "net_pct": -0.17
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 1.56,
+          "net_pct": -2.64
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "BTCUSDT",
+      "deadband_bps": 8.0,
+      "funding_points": 7328,
+      "span_days": 2442.3,
+      "first": "2019-09-10",
+      "last": "2026-05-18",
+      "flips": 0,
+      "gross_ann_pct": 2.73,
+      "net_ann_pct": 0.29,
+      "cost_drag_ann_pct": 2.43,
+      "net_sharpe": 0.46,
+      "max_dd_pct": 2.25,
+      "pct_cycles_net_positive": 1.5,
+      "worst_year_net_pct": -2.23,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 338,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 4.23,
+          "net_pct": -2.23
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 13.62,
+          "net_pct": 4.37
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.23,
+          "net_pct": -0.07
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 0.17,
+          "net_pct": -0.11
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 0.0,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 946,
+      "gross_ann_pct": 16.56,
+      "net_ann_pct": -5.27,
+      "cost_drag_ann_pct": 21.83,
+      "net_sharpe": -2.69,
+      "max_dd_pct": 88.0,
+      "pct_cycles_net_positive": 81.6,
+      "worst_year_net_pct": -38.34,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 4,
+          "gross_pct": 0.98,
+          "net_pct": 0.23
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 44,
+          "gross_pct": 28.45,
+          "net_pct": 22.03
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 54,
+          "gross_pct": 38.96,
+          "net_pct": 30.99
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 314,
+          "gross_pct": 9.04,
+          "net_pct": -38.34
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 124,
+          "gross_pct": 8.8,
+          "net_pct": -9.47
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 54,
+          "gross_pct": 13.23,
+          "net_pct": 5.25
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 238,
+          "gross_pct": 5.83,
+          "net_pct": -29.1
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 114,
+          "gross_pct": 2.0,
+          "net_pct": -15.69
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 0.2,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 377,
+      "gross_ann_pct": 16.45,
+      "net_ann_pct": -15.84,
+      "cost_drag_ann_pct": 32.29,
+      "net_sharpe": -7.05,
+      "max_dd_pct": 153.37,
+      "pct_cycles_net_positive": 73.5,
+      "worst_year_net_pct": -52.98,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 1,
+          "gross_pct": 0.98,
+          "net_pct": -0.47
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 30,
+          "gross_pct": 28.44,
+          "net_pct": 20.97
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 28,
+          "gross_pct": 38.94,
+          "net_pct": 29.41
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 172,
+          "gross_pct": 8.87,
+          "net_pct": -52.98
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 37,
+          "gross_pct": 8.66,
+          "net_pct": -25.46
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 11,
+          "gross_pct": 13.16,
+          "net_pct": -0.62
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 60,
+          "gross_pct": 5.61,
+          "net_pct": -49.14
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 38,
+          "gross_pct": 1.89,
+          "net_pct": -24.29
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 0.5,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 110,
+      "gross_ann_pct": 15.86,
+      "net_ann_pct": -19.78,
+      "cost_drag_ann_pct": 35.65,
+      "net_sharpe": -8.58,
+      "max_dd_pct": 175.68,
+      "pct_cycles_net_positive": 60.7,
+      "worst_year_net_pct": -60.93,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.96,
+          "net_pct": -1.46
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 18,
+          "gross_pct": 28.38,
+          "net_pct": 19.29
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 12,
+          "gross_pct": 38.82,
+          "net_pct": 26.57
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 61,
+          "gross_pct": 8.09,
+          "net_pct": -60.93
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 3,
+          "gross_pct": 7.91,
+          "net_pct": -31.86
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 2,
+          "gross_pct": 12.67,
+          "net_pct": -8.09
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 8,
+          "gross_pct": 4.52,
+          "net_pct": -48.46
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 6,
+          "gross_pct": 1.41,
+          "net_pct": -23.21
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 1.0,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 24,
+      "gross_ann_pct": 14.43,
+      "net_ann_pct": -7.55,
+      "cost_drag_ann_pct": 21.98,
+      "net_sharpe": -3.89,
+      "max_dd_pct": 94.73,
+      "pct_cycles_net_positive": 48.3,
+      "worst_year_net_pct": -44.46,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.87,
+          "net_pct": -2.37
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 4,
+          "gross_pct": 28.19,
+          "net_pct": 18.61
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 7,
+          "gross_pct": 38.55,
+          "net_pct": 24.58
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 12,
+          "gross_pct": 5.83,
+          "net_pct": -44.46
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 6.19,
+          "net_pct": -11.47
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 11.11,
+          "net_pct": -7.66
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 2.19,
+          "net_pct": -18.01
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.53,
+          "net_pct": -8.09
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 1.5,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 10.09,
+      "net_ann_pct": -0.21,
+      "cost_drag_ann_pct": 10.3,
+      "net_sharpe": -0.15,
+      "max_dd_pct": 23.86,
+      "pct_cycles_net_positive": 13.3,
+      "worst_year_net_pct": -6.84,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.04,
+          "net_pct": -0.25
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 21.46,
+          "net_pct": 3.91
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 33.17,
+          "net_pct": 11.83
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 2.36,
+          "net_pct": -6.84
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.88,
+          "net_pct": -2.47
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 6.16,
+          "net_pct": -4.34
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.04,
+          "net_pct": -0.26
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.24,
+          "net_pct": -2.95
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 2.0,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 9.63,
+      "net_ann_pct": 0.51,
+      "cost_drag_ann_pct": 9.13,
+      "net_sharpe": 0.37,
+      "max_dd_pct": 16.74,
+      "pct_cycles_net_positive": 11.3,
+      "worst_year_net_pct": -3.38,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.04,
+          "net_pct": -0.25
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 20.8,
+          "net_pct": 2.14
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 32.55,
+          "net_pct": 10.66
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.98,
+          "net_pct": -3.38
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.67,
+          "net_pct": -1.83
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 5.24,
+          "net_pct": -2.74
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.03,
+          "net_pct": -0.26
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.11,
+          "net_pct": -1.05
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": false,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 3.0,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 8.75,
+      "net_ann_pct": 0.79,
+      "cost_drag_ann_pct": 7.96,
+      "net_sharpe": 0.61,
+      "max_dd_pct": 13.26,
+      "pct_cycles_net_positive": 8.4,
+      "worst_year_net_pct": -3.4,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 19.34,
+          "net_pct": 2.95
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 30.9,
+          "net_pct": 8.76
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.51,
+          "net_pct": -0.6
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.12,
+          "net_pct": -2.38
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 3.74,
+          "net_pct": -3.4
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.04,
+          "net_pct": -0.25
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": true,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 5.0,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 1,
+      "gross_ann_pct": 6.85,
+      "net_ann_pct": 1.15,
+      "cost_drag_ann_pct": 5.7,
+      "net_sharpe": 1.04,
+      "max_dd_pct": 6.91,
+      "pct_cycles_net_positive": 4.7,
+      "worst_year_net_pct": -2.35,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 15.44,
+          "net_pct": 2.27
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 1,
+          "gross_pct": 25.85,
+          "net_pct": 8.34
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 1.23,
+          "net_pct": 0.31
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.29,
+          "net_pct": -1.11
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 1.57,
+          "net_pct": -2.35
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": true,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "deadband_bps": 8.0,
+      "funding_points": 7094,
+      "span_days": 2364.3,
+      "first": "2019-11-27",
+      "last": "2026-05-18",
+      "flips": 0,
+      "gross_ann_pct": 4.49,
+      "net_ann_pct": 1.07,
+      "cost_drag_ann_pct": 3.42,
+      "net_sharpe": 1.21,
+      "max_dd_pct": 3.23,
+      "pct_cycles_net_positive": 2.1,
+      "worst_year_net_pct": -0.21,
+      "by_year": [
+        {
+          "year": "2019",
+          "cycles": 104,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2020",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 8.76,
+          "net_pct": -0.21
+        },
+        {
+          "year": "2021",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 19.18,
+          "net_pct": 6.57
+        },
+        {
+          "year": "2022",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.98,
+          "net_pct": 0.66
+        },
+        {
+          "year": "2023",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2024",
+          "cycles": 1098,
+          "flips": 0,
+          "gross_pct": 0.18,
+          "net_pct": -0.1
+        },
+        {
+          "year": "2025",
+          "cycles": 1095,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        },
+        {
+          "year": "2026",
+          "cycles": 414,
+          "flips": 0,
+          "gross_pct": 0.0,
+          "net_pct": 0.0
+        }
+      ],
+      "verdict": "NO VIABLE EDGE",
+      "criteria": {
+        "every_year_net_positive": false,
+        "net_sharpe>=0.5": true,
+        "net_ann>=5pct_tbill_hurdle": false
+      }
+    }
+  ]
+}

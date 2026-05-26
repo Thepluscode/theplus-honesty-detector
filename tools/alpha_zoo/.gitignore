@@ -1,0 +1,10 @@
+# NEVER commit Alpaca credentials
+alpaca_credentials.json
+
+# Generated data / reports
+universe.csv
+sample_universe.csv
+results.csv
+*.parquet
+__pycache__/
+.venv/

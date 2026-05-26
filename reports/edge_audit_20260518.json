@@ -1,0 +1,219 @@
+{
+  "method": "rolling walk-forward, default params, normalised 15-tick EURUSD cost, frozen config",
+  "data": "data/sample/EURUSD_5m_20230101_20260101.csv",
+  "window_months": 6,
+  "step_months": 3,
+  "min_trades_floor": 30,
+  "computed_at": "2026-05-18T15:05:03+00:00",
+  "results": [
+    {
+      "strategy": "fx_carry_trend",
+      "n_folds": 10,
+      "total_trades": 0,
+      "agg_sharpe": 0.0,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.0,
+      "worst_fold_max_dd_pct": 0.0,
+      "sum_fold_return_pct": 0.0,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": false
+      },
+      "on_design": false,
+      "note": "OFF-DESIGN: needs rate-diff data, not price-only"
+    },
+    {
+      "strategy": "obv_mean_reversion",
+      "n_folds": 10,
+      "total_trades": 1073,
+      "agg_sharpe": -3.112,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.613,
+      "worst_fold_max_dd_pct": 5.91,
+      "sum_fold_return_pct": -36.65,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "OBV divergence mean-reversion"
+    },
+    {
+      "strategy": "box_symmetric",
+      "n_folds": 10,
+      "total_trades": 1349,
+      "agg_sharpe": -4.127,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.535,
+      "worst_fold_max_dd_pct": 9.31,
+      "sum_fold_return_pct": -62.57,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "the only 'production-proven' strategy"
+    },
+    {
+      "strategy": "stocks_momentum",
+      "n_folds": 10,
+      "total_trades": 1165,
+      "agg_sharpe": -4.284,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.544,
+      "worst_fold_max_dd_pct": 32.51,
+      "sum_fold_return_pct": -203.04,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": false,
+      "note": "OFF-DESIGN: built for equities"
+    },
+    {
+      "strategy": "rsi2_mean_reversion",
+      "n_folds": 10,
+      "total_trades": 936,
+      "agg_sharpe": -5.694,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.436,
+      "worst_fold_max_dd_pct": 18.54,
+      "sum_fold_return_pct": -138.68,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": false,
+      "note": "OFF-DESIGN: built for stocks"
+    },
+    {
+      "strategy": "breakout_pullback",
+      "n_folds": 10,
+      "total_trades": 255,
+      "agg_sharpe": -10.278,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.286,
+      "worst_fold_max_dd_pct": 10.55,
+      "sum_fold_return_pct": -63.96,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "breakout + pullback entry"
+    },
+    {
+      "strategy": "trend_breakout",
+      "n_folds": 10,
+      "total_trades": 2564,
+      "agg_sharpe": -10.29,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.473,
+      "worst_fold_max_dd_pct": 67.03,
+      "sum_fold_return_pct": -448.54,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": false,
+      "note": "OFF-DESIGN: built for 4h crypto trend"
+    },
+    {
+      "strategy": "box_adaptive",
+      "n_folds": 10,
+      "total_trades": 2292,
+      "agg_sharpe": -12.063,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.302,
+      "worst_fold_max_dd_pct": 58.02,
+      "sum_fold_return_pct": -513.94,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "adaptive box (no shipped config)"
+    },
+    {
+      "strategy": "vwap_reversal",
+      "n_folds": 10,
+      "total_trades": 2428,
+      "agg_sharpe": -14.838,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.246,
+      "worst_fold_max_dd_pct": 66.76,
+      "sum_fold_return_pct": -605.25,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "VWAP reversal mean-reversion"
+    },
+    {
+      "strategy": "box_longonly",
+      "n_folds": 10,
+      "total_trades": 1014,
+      "agg_sharpe": -15.152,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.134,
+      "worst_fold_max_dd_pct": 35.87,
+      "sum_fold_return_pct": -298.52,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "long-only box variant"
+    },
+    {
+      "strategy": "keltner_fade",
+      "n_folds": 10,
+      "total_trades": 2155,
+      "agg_sharpe": -17.136,
+      "pct_positive_folds": 0.0,
+      "mean_profit_factor": 0.163,
+      "worst_fold_max_dd_pct": 64.6,
+      "sum_fold_return_pct": -573.03,
+      "verdict": "NO DURABLE EDGE",
+      "criteria": {
+        "agg_sharpe>=0.5": false,
+        "pct_positive>=0.60": false,
+        "mean_pf>=1.1": false,
+        "total_trades>=30": true
+      },
+      "on_design": true,
+      "note": "Keltner channel mean-reversion"
+    }
+  ]
+}

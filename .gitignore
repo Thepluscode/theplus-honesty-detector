@@ -1,0 +1,34 @@
+# Secrets — never commit
+.env
+tools/alpha_zoo/alpaca_credentials.json
+
+# Python artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+
+# Downloaded price / data caches
+data/
+*.parquet
+tools/alpha_zoo/universe*.csv
+tools/alpha_zoo/sp500*.csv
+tools/alpha_zoo/results*.csv
+tools/alpha_zoo/is*.csv
+tools/alpha_zoo/oos*.csv
+tools/alpha_zoo/u_*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
